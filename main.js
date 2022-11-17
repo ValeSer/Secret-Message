@@ -7,3 +7,5 @@ secretMessage.pop();
 
 secretMessage.push('to', 'Program');
 //console.log(secretMessage);
+
+secretMessage[7] = 'right';
