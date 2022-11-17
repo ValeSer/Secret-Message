@@ -12,3 +12,5 @@ console.log(secretMessage[7]);
 
 secretMessage[7] = 'right';
 console.log(secretMessage[7]);
+
+secretMessage.shift();
