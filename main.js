@@ -8,12 +8,13 @@ secretMessage.pop();
 secretMessage.push('to', 'Program');
 //console.log(secretMessage);
 
-console.log(secretMessage[7]);
+//console.log(secretMessage[7]);
 
 secretMessage[7] = 'right';
-console.log(secretMessage[7]);
+//console.log(secretMessage[7]);
 
 secretMessage.shift();
-console.log(secretMessage);
+//console.log(secretMessage);
 
 secretMessage.unshift('Programming');
+console.log(secretMessage);
