@@ -17,4 +17,7 @@ secretMessage.shift();
 //console.log(secretMessage);
 
 secretMessage.unshift('Programming');
+//console.log(secretMessage);
+
+secretMessage.splice(6, 11, 'know,');
 console.log(secretMessage);
